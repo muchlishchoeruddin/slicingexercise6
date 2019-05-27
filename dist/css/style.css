@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+html, body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navone {
+  background-color: #f0f0f0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+@media (max-width: 768px) {
+  .navone {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .navone .content {
+    text-align: center;
+  }
+}
+.navone .content b {
+  color: #d64416;
+}
+.navone .navbarnav {
+  text-align: right;
+}
+.navone .navbarnav a {
+  color: #888;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.navone .navbarnav a:hover {
+  color: black;
+}
+.navone .navbarnav .active {
+  color: #d64416;
+}
+@media (max-width: 768px) {
+  .navone .navbarnav {
+    text-align: center;
+  }
+}
+
+.informationtop {
+  color: #888;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+@media (max-width: 390px) {
+  .informationtop {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+.informationtop .inf-item {
+  transition: all 0.2s ease;
+}
+@media (min-width: 993px) {
+  .informationtop .inf-item {
+    font-size: 0.96vw;
+  }
+  .informationtop .inf-item img {
+    width: 9vw;
+  }
+}
+@media (max-width: 992px) {
+  .informationtop .inf-item {
+    margin-top: 20px;
+  }
+}
+.informationtop .icon .d-flex {
+  position: relative;
+  height: 100%;
+  justify-content: flex-end;
+}
+.informationtop .icon .d-flex a {
+  color: white;
+}
+.informationtop .icon .d-flex a:hover .icon-item {
+  background-color: #555;
+}
+.informationtop .icon .d-flex .icon-item {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease;
+  background-color: #777;
+  position: relative;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+@media (min-width: 993px) {
+  .informationtop .icon .d-flex .icon-item {
+    width: 2vw;
+    height: 2vw;
+  }
+}
+.informationtop .icon .d-flex .icon-item i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.informationtop .media .fa {
+  font-size: 2em;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+@media (min-width: 993px) {
+  .informationtop .media .fa {
+    font-size: 1vw;
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+}
+.navbar .navbar-nav .active .nav-link {
+  color: #d64416;
+}
+
+.casset-canvas {
+  position: relative;
+  background-color: #3f3f3f;
+  width: 100%;
+  height: 420px;
+}
+.casset-canvas .casset {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 3px solid #90908e;
+  transform: translate(-50%, -50%);
+  width: 325px;
+  height: 325px;
+  border-radius: 100%;
+  background-color: #2d2d2d;
+  overflow: hidden;
+}
+.casset-canvas .casset #particles-js {
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.casset-canvas .casset .particle-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #3f3f3f;
+}
+.casset-canvas .casset .casset-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.casset-canvas .casset .casset-content .column {
+  text-align: center;
+}
+.casset-canvas .casset .casset-content .column img {
+  width: 25%;
+}
+.casset-canvas .casset .casset-content .column .content-body {
+  color: white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.casset-canvas .casset .casset-content .column .content-body hr {
+  width: 10%;
+  border-color: white;
+}
+.casset-canvas .casset .casset-content .column .content-body b {
+  font-size: 1.4em;
+}
+.casset-canvas .casset .casset-content .column .icon-circle {
+  color: white;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100%;
+}
+.casset-canvas .casset .casset-content .column .icon-circle i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style.css.map */
